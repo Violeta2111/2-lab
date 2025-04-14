@@ -2,9 +2,9 @@
 #include <math.h>  // для функції pow()
 
 int main() {
-    int a = 5;
-    int b = 7;
-    int c = 5;
+    const int a = 5;
+    const int b = 7;
+    const int c = 5;
     double y;
 
     // Розрахунок чисельника та знаменника
