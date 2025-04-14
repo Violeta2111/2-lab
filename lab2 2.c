@@ -11,12 +11,6 @@ int main() {
     double numerator = a + 4 * b - pow(c, 2);
     double denominator = 2 * a * b * c;
 
-    // Перевірка на ділення на нуль
-    if (denominator == 0) {
-        printf("Помилка: знаменник дорівнює нулю.\n");
-        return 1;
-    }
-
     // Обчислення результату
     y = numerator / denominator;
 
